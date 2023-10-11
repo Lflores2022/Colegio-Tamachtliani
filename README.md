@@ -23,4 +23,10 @@ Se realiza la maquetación de la página de Programas Academicos
 
 ![Sprint4](./documentos/sprint%204.jpeg)
 
+## Sprint 4 Instalaciones
+
+Se realiza la maquetación de la página Instalaciones e integración del Footer
+
+documentos/instalaciones.png
+
 Por su atención gracias
