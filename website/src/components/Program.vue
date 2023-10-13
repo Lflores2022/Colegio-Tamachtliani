@@ -2,7 +2,7 @@
     <h1>Programas Academicos</h1>
     <div class="container">
         <div class="card">
-            <img src="vacia.webp" alt="kinder" class="card__image">
+            <img src="/vacia.webp" alt="kinder" class="card__image">
             <div class="card__info">
                 <h2 class="card__info-title">Kinder</h2>
                 <p class="card__info-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod rerum ratione doloribus nam id fugit rem, laudantium, eos omnis odit harum voluptas, magnam asperiores nisi quasi perferendis vero. Officiis, ipsam.</p>
@@ -13,10 +13,10 @@
                 <h2 class="card__info-title">Primaria</h2>
                 <p class="card__info-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod rerum ratione doloribus nam id fugit rem, laudantium, eos omnis odit harum voluptas, magnam asperiores nisi quasi perferendis vero. Officiis, ipsam.</p>
             </div>
-            <img src="vacia.webp" alt="Primaria" class="card__image">
+            <img src="/vacia.webp" alt="Primaria" class="card__image">
         </div>
         <div class="card">
-            <img src="vacia.webp" alt="Ingles" class="card__image">
+            <img src="/vacia.webp" alt="Ingles" class="card__image">
             <div class="card__info">
                 <h2 class="card__info-title">Inglés</h2>
                 <p class="card__info-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod rerum ratione doloribus nam id fugit rem, laudantium, eos omnis odit harum voluptas, magnam asperiores nisi quasi perferendis vero. Officiis, ipsam.</p>
@@ -27,18 +27,10 @@
                 <h2 class="card__info-title">Deportes</h2>
                 <p class="card__info-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod rerum ratione doloribus nam id fugit rem, laudantium, eos omnis odit harum voluptas, magnam asperiores nisi quasi perferendis vero. Officiis, ipsam.</p>
             </div>
-            <img src="vacia.webp" alt="Deportes" class="card__image">
+            <img src="/vacia.webp" alt="Deportes" class="card__image">
         </div>
     </div>
 
-    <footer class="footer">
-      <img class="footer-logo" src="logo.png" alt="Logo de la empresa"> Colegio Tlamachtiani
-      <div class="footer-links">
-        <a href="#">Aviso legal</a>
-        <a href="#">Política de privacidad</a>
-        <a href="#">Términos y condiciones</a>
-      </div>
-    </footer>
 </template>
 
 <style scoped>
@@ -78,21 +70,5 @@ h1{
     text-align: left;
     line-height: 25px;
 }
-
-.footer {
-        background-color: #000000;
-        padding: 20px;
-        text-align: center;
-        color: #fff;
-      }
-      .footer-logo {
-        width: 10px;
-      }
-    
-      .footer-links a {
-        color: #f3efef;
-        text-decoration: none;
-        margin: 0 10px;
-      }
 
 </style>

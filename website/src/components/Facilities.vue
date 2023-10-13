@@ -16,55 +16,55 @@
         <div class="linea"></div>
         <div class="contenedor-imagenes">
             <div class="imagen">
-                <img src="insta1.jpeg" alt="">
+                <img src="/insta1.jpeg" alt="">
                 <div class="overlay">
                     <h2>Instalaciones</h2>
                 </div>
             </div>
             <div class="imagen">
-                <img src="insta2.jpeg" alt="">
+                <img src="/insta2.jpeg" alt="">
                 <div class="overlay">
                     <h2>Instalaciones</h2>
                 </div>
             </div>
             <div class="imagen">
-                <img src="insta7.jpg" alt="">
+                <img src="/insta7.jpg" alt="">
                 <div class="overlay">
                     <h2>Instalaciones</h2>
                 </div>
             </div>
             <div class="imagen">
-                <img src="insta4.avif" alt="">
+                <img src="/insta4.avif" alt="">
                 <div class="overlay">
                     <h2>Instalaciones</h2>
                 </div>
             </div>
             <div class="imagen">
-                <img src="insta5.jpg" alt="">
+                <img src="/insta5.jpg" alt="">
                 <div class="overlay">
                     <h2>Instalaciones</h2>
                 </div>
             </div>
             <div class="imagen">
-                <img src="insta3.jpeg" alt="">
+                <img src="/insta3.jpeg" alt="">
                 <div class="overlay">
                     <h2>Instalaciones</h2>
                 </div>
             </div>
             <div class="imagen">
-                <img src="insta6.jpg" alt="">
+                <img src="/insta6.jpg" alt="">
                 <div class="overlay">
                     <h2>Instalaciones</h2>
                 </div>
             </div>
             <div class="imagen">
-                <img src="insta8.jpg" alt="">
+                <img src="/insta8.jpg" alt="">
                 <div class="overlay">
                     <h2>Instalaciones</h2>
                 </div>
             </div>
             <div class="imagen">
-                <img src="insta9.jpg" alt="">
+                <img src="/insta9.jpg" alt="">
                 <div class="overlay">
                     <h2>Instalaciones</h2>
                 </div>
@@ -73,14 +73,6 @@
     </div>
 
     <br><br>
-    <footer class="footer">
-      <img class="footer-logo" src="logo.png" alt="Logo de la empresa"> Colegio Tlamachtiani
-      <div class="footer-links">
-        <a href="#">Aviso legal</a>
-        <a href="#">Política de privacidad</a>
-        <a href="#">Términos y condiciones</a>
-      </div>
-    </footer>
    
 </body>
 </html>
@@ -194,21 +186,6 @@
     }
 }
 
-.footer {
-        background-color: #000000;
-        padding: 20px;
-        text-align: center;
-        color: #fff;
-      }
-      .footer-logo {
-        width: 10px;
-      }
-    
-      .footer-links a {
-        color: #f3efef;
-        text-decoration: none;
-        margin: 0 10px;
-      }
 
 </style>
 
