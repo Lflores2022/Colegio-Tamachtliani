@@ -12,6 +12,7 @@ import FooterView from './views/FooterView.vue';
       <RouterLink to="/">Nosotros</RouterLink>
       <RouterLink to="/programas">Programas</RouterLink>
       <RouterLink to="/instalaciones">Instalaciones</RouterLink>
+      <RouterLink to="/contacto">Contactanos</RouterLink>
     </nav>
   </header>
   <RouterView />
