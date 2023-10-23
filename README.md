@@ -37,5 +37,6 @@ Se realiza la maquetación de la página Contacto en la cual encontramos un form
 
 Se realiza la maquetacion de la pagina Ubicación en la cual se proporciona información general del colegio Tlamachtianil.
 
+![Sprint4](./documentos/ubicacion.png)
 
 Por su atención gracias
