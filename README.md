@@ -33,4 +33,9 @@ Se realiza la maquetación de la página Contacto en la cual encontramos un form
 
 ![Sprint4](./documentos/pagina_form.png)
 
+## Sprint 6 Ubicación
+
+Se realiza la maquetacion de la pagina Ubicación en la cual se proporciona información general del colegio Tlamachtianil.
+
+
 Por su atención gracias
