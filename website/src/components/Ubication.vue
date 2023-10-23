@@ -13,7 +13,7 @@
         <h1><b> Puedes comunicarte con nosotros por los siguientes medios:</b></h1>
         <div class="inputBox">
             <span class="fas fa-map-marker-alt"></span>
-            <h1> &nbsp C. Valle de Guadalupe 1789, Jardines del Valle, 45138 Zapopan, Jal.</h1>
+            <h1> C. Valle de Guadalupe 1789, Jardines del Valle, 45138 Zapopan, Jal.</h1>
         </div>
         <div class="inputBox">
             <span class="fas fa-envelope"></span>
