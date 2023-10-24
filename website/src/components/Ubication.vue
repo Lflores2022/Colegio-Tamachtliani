@@ -7,31 +7,31 @@
 
 <div class="row">
 
-    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.186343153539!2d-103.430732625621!3d20.743239997525635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af678831176d%3A0xcf18442b1f5f9ab7!2sColegio%20Tlamachtiani!5e0!3m2!1ses-419!2smx!4v1698092148952!5m2!1ses-419!2smx" allowfullscreen="" loading="lazy"></iframe>
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.186343153539!2d-103.430732625621!3d20.743239997525635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af678831176d%3A0xcf18442b1f5f9ab7!2sColegio%20Tlamachtiani!5e0!3m2!1ses-419!2smx!4v1698092148952!5m2!1ses-419!2smx" loading="lazy"></iframe>
 
     <form action="">
         <h1><b> Puedes comunicarte con nosotros por los siguientes medios:</b></h1>
         <div class="inputBox">
             <span class="fas fa-map-marker-alt"></span>
-            <h1>&nbsp C. Valle de Guadalupe 1789, Jardines del Valle, 45138 Zapopan, Jal.</h1>
+            <h2>&nbsp C. Valle de Guadalupe 1789, Jardines del Valle, 45138 Zapopan, Jal.</h2>
         </div>
         <div class="inputBox">
             <span class="fas fa-envelope"></span>
-            <h1>&nbsp tlamachtiani-primaria@hotmail.com</h1>
+            <h2>&nbsp tlamachtiani-primaria@hotmail.com</h2>
             
         </div>
         <div class="inputBox">
             <span class="fas fa-phone"></span>
-            <h1>&nbsp 33 3550 2440</h1>
+            <h2>&nbsp 33 3550 2440</h2>
             
         </div>
         <div class="inputBox">
             <span class="fas fa-clock"></span>
-           <h1> &nbsp
+           <h2> &nbsp
             Horario: Lunes a Viernes 8 a.m-2:30 p.m
             
           
-        </h1>
+        </h2>
         </div>
        
     </form>
