@@ -28,6 +28,11 @@ const router = createRouter({
       name: 'contacto',
       component: FormView
     },
+    {
+    path: '/ubicacion',
+    name: 'ubicacion',
+    component: UbicationView
+  }
 
   ]
 })
