@@ -13,7 +13,7 @@ import FooterView from './views/FooterView.vue';
       <RouterLink to="/programas">Programas</RouterLink>
       <RouterLink to="/instalaciones">Instalaciones</RouterLink>
       <RouterLink to="/contacto">Contactanos</RouterLink>
-      <RouterLink to="/ubicacion">Ubicación</RouterLink>
+      
     
     </nav>
   </header>
