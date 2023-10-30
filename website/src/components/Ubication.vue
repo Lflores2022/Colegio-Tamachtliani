@@ -3,7 +3,7 @@
 <br>
 <section class="contact" id="contact">
 <br>
-<h1 class="heading"> Contáctanos</h1>
+<h1 class="heading"> Ubicación</h1>
 
 <div class="row">
 
