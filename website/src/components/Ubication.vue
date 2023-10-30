@@ -1,4 +1,5 @@
 <template>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
      <section class="form_wrap">
 
 <section class="cantact_info">
@@ -7,13 +8,12 @@
         <h2>INFORMACION<br>DE CONTACTO</h2>
     </section>
     <section class="info_items">
-        <p><span class="fa fa-envelope"></span> info.contact@gmail.com</p>
-        <p><span class="fa fa-mobile"></span> +1(585) 902-8665</p>
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.186343153539!2d-103.430732625621!3d20.743239997525635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af678831176d%3A0xcf18442b1f5f9ab7!2sColegio%20Tlamachtiani!5e0!3m2!1ses-419!2smx!4v1698092148952!5m2!1ses-419!2smx" allowfullscreen="" loading="lazy"></iframe>
     </section>
 </section>
 
 <form action="" class="form_contact">
-    <h2>Envia un mensaje</h2>
+    <h2>Contáctanos</h2>
     <div class="user_info">
         <label for="names">Nombres *</label>
         <input type="text" id="names">
