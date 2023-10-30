@@ -1,118 +1,274 @@
 <template>
+     <section class="form_wrap">
 
-<br>
-<section class="contact" id="contact">
-<br>
-<h1 class="heading"> Contáctanos</h1>
-
-<div class="row">
-
-    
-    <form action="">
-        <h1><b> Puedes comunicarte con nosotros por los siguientes medios:</b></h1>
-        <div class="inputBox">
-            <span class="fas fa-map-marker-alt"></span>
-            <h1> &nbsp C. Valle de Guadalupe 1789, Jardines del Valle, 45138 Zapopan, Jal.</h1>
-        </div>
-        <div class="inputBox">
-            <span class="fas fa-envelope"></span>
-            <h1>&nbsp tlamachtiani-primaria@hotmail.com</h1>
-            
-        </div>
-        <div class="inputBox">
-            <span class="fas fa-phone"></span>
-            <h1>&nbsp 33 3550 2440</h1>
-            
-        </div>
-        <div class="inputBox">
-            <span class="fas fa-clock"></span>
-           <h1> &nbsp
-            Horario: Lunes a Viernes 8 a.m-2:30 p.m
-            
-          
-        </h1>
-        </div>
-       
-    </form>
-
-</div>
-<br>
-
+<section class="cantact_info">
+    <section class="info_title">
+        <span class="fa fa-user-circle"></span>
+        <h2>INFORMACION<br>DE CONTACTO</h2>
+    </section>
+    <section class="info_items">
+        <p><span class="fa fa-envelope"></span> info.contact@gmail.com</p>
+        <p><span class="fa fa-mobile"></span> +1(585) 902-8665</p>
+    </section>
 </section>
 
-    <footer class="footer">
-      <img class="footer-logo" src="logo.png" alt="Logo de la empresa"> Colegio Tlamachtiani
-      <div class="footer-links">
-        <a href="#">Aviso legal</a>
-        <a href="#">Política de privacidad</a>
-        <a href="#">Términos y condiciones</a>
-      </div>
-    </footer>
+<form action="" class="form_contact">
+    <h2>Envia un mensaje</h2>
+    <div class="user_info">
+        <label for="names">Nombres *</label>
+        <input type="text" id="names">
 
+        <label for="phone">Telefono / Celular</label>
+        <input type="text" id="phone">
+
+        <label for="email">Correo electronico *</label>
+        <input type="text" id="email">
+
+        <label for="mensaje">Mensaje *</label>
+        <textarea id="mensaje"></textarea>
+
+        <input type="button" value="Enviar Mensaje" id="btnSend">
+    </div>
+</form>
+
+</section>
 </template>
-
 <style scoped>
-
-.heading{
-    text-align: center;
-    color:#000000;
-    padding-bottom: 3.5rem;
-    font-size: 3rem;
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
-.contact .row{
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+:focus{
+    outline: none;
+}
+
+body{
+    background: #DBDBDB;
+    font-family: 'Open sans';
+}
+
+/* FORMULARIO =================================== */
+
+.form_wrap{
+    width: 1050px;
+    height: 80vh;
+    margin: 50px auto;
     display: flex;
-    flex-wrap: wrap;
-    gap:1rem;
-    margin: 20px 40px;
-    background: rgb(255, 255, 255);
+
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
-.contact .row .map{
-    flex:1 1 45rem;
+/* Informacion de Contacto*/
+
+.cantact_info::before{
+    content: '';
     width: 100%;
-    object-fit: cover;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: #4091EC;
+    opacity: 0.9;
 }
 
-.contact .row form{
-    flex:1 1 45rem;
-    padding:5rem 2rem;
+.cantact_info{
+    width: 38%;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('../fondo.jpg');
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.info_title,
+.info_items{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+.info_title{
+    margin-bottom: 60px;
+}
+
+.info_title span{
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.info_title h2{
+    font-size: 35px;
     text-align: center;
 }
 
-.contact .row form h1{
-    font-weight: 500;
-    color:#000000;
-}
-
-.contact .row form .inputBox{
+.info_items p{
     display: flex;
     align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    border:var(--border);
+
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 
-.contact .row form .inputBox span{
-    color:#000000;
-    font-size: 2rem;
-    padding-left: 2rem;
+.info_items p:nth-child(1) span{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.info_items p:nth-child(2) span{
+    font-size: 50px;
+    margin-right: 15px;
+    margin-left: 4px;
 }
 
 
-.footer {
-        background-color: #000000;
-        padding: 20px;
-        text-align: center;
-        color: #fff;
-      }
-      .footer-logo {
-        width: 10px;
-      }
-    
-      .footer-links a {
-        color: #f3efef;
-        text-decoration: none;
-        margin: 0 10px;
-      }
+/* Formulario de contacto*/
+form.form_contact{
+    width: 62%;
+    padding: 30px 40px;
+}
 
+form.form_contact h2{
+	font-size: 25px;
+	font-weight: 600;
+	color: #303030;
+	margin-bottom: 30px;
+}
+
+form.form_contact .user_info{
+    display: flex;
+    flex-direction: column;
+}
+
+form.form_contact label{
+    font-weight: 600;
+}
+
+form.form_contact input,
+form.form_contact textarea{
+    width: 100%;
+    padding: 8px 0px 5px;
+    margin-bottom: 20px;
+
+    border: none;
+    border-bottom: 2px solid #D1D1D1;
+
+    font-family: 'Open sans';
+	color: #5A5A5A;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+form.form_contact textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 90px;
+}
+
+form.form_contact input[type="button"]{
+    width: 180px;
+	background: #4091EC;
+	padding: 10px;
+	border: none;
+	border-radius: 25px;
+
+    align-self: flex-end;
+
+    color: #fff;
+	font-family: 'Open sans';
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+form.form_contact input[type="button"]:hover{
+    background: #3371B6;
+}
+
+/* Ventana de errores*/
+.modal_wrap{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensaje_modal{
+    background: #fff;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+    width: 400px;
+    padding: 30px 20px 15px;
+}
+
+.mensaje_modal h3{
+    text-align: center;
+    font-family: 'Ubuntu';
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.mensaje_modal h3:after{
+    content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: #C5C5C5;
+	margin: 10px 0px 15px;
+}
+
+.mensaje_modal p{
+    font-size: 16px;
+    color: #606060;
+}
+
+.mensaje_modal p:before{
+    content: "\f00d";
+    font-family: FontAwesome;
+    display: inline-block;
+    color: #E25151;
+    margin-right: 8px;
+}
+
+#btnClose{
+    display: inline-block;
+	padding: 3px 10px;
+	margin-top: 10px;
+
+	background: #E25151;
+	color: #fff;
+	border: 2px solid #B14141;
+	cursor: pointer;
+	
+}
 </style>
