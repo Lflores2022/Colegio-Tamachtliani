@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import ProgramView from '../views/ProgramView.vue'
 import FacilitiesView from '../views/FacilitiesView.vue'
 import FormView from '../views/FormView.vue'
+import UbicationView from '../views/UbicationView.vue'
 
 
 
@@ -28,7 +29,12 @@ const router = createRouter({
       path: '/contacto',
       name: 'contacto',
       component: FormView
-    }
+    },
+    {
+    path: '/ubicacion',
+    name: 'ubicacion',
+    component: UbicationView
+   }
 
   ]
 })
