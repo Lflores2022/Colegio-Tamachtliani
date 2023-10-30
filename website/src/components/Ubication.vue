@@ -14,20 +14,24 @@
 
 <form action="" class="form_contact">
     <h2>Contáctanos</h2>
-    <div class="user_info">
-        <label for="names">Nombres *</label>
-        <input type="text" id="names">
-
-        <label for="phone">Telefono / Celular</label>
-        <input type="text" id="phone">
-
-        <label for="email">Correo electronico *</label>
-        <input type="text" id="email">
-
-        <label for="mensaje">Mensaje *</label>
-        <textarea id="mensaje"></textarea>
-
-        <input type="button" value="Enviar Mensaje" id="btnSend">
+    <div class="inputBox">
+            <span class="fas fa-map-marker-alt"></span>
+            <h1> &nbsp C. Valle de Guadalupe 1789, Jardines del Valle, 45138 Zapopan, Jal.</h1>
+        </div>
+        <div class="inputBox">
+            <span class="fas fa-envelope"></span>
+            <h1>&nbsp tlamachtiani-primaria@hotmail.com</h1>
+            
+        </div>
+        <div class="inputBox">
+            <span class="fas fa-phone"></span>
+            <h1>&nbsp 33 3550 2440</h1>
+            
+        </div>
+        <div class="inputBox">
+            <span class="fas fa-clock"></span>
+           <h1> &nbsp
+            Horario: Lunes a Viernes 8 a.m-2:30 p.m
     </div>
 </form>
 
@@ -86,6 +90,12 @@ body{
     opacity: 0.9;
 }
 
+.map{
+    flex:1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+	
 .cantact_info{
     width: 38%;
     position: relative;
@@ -271,4 +281,19 @@ form.form_contact input[type="button"]:hover{
 	cursor: pointer;
 	
 }
+
+.inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border:var(--border);
+}
+
+.inputBox span{
+    color:#000000;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
 </style>
