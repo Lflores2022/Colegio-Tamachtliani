@@ -14,25 +14,7 @@
 
 <form action="" class="form_contact">
     <h2>Contáctanos</h2>
-    <div class="inputBox">
-            <span class="fas fa-map-marker-alt"></span>
-            <h1> &nbsp C. Valle de Guadalupe 1789, Jardines del Valle, 45138 Zapopan, Jal.</h1>
-        </div>
-        <div class="inputBox">
-            <span class="fas fa-envelope"></span>
-            <h1>&nbsp tlamachtiani-primaria@hotmail.com</h1>
-            
-        </div>
-        <div class="inputBox">
-            <span class="fas fa-phone"></span>
-            <h1>&nbsp 33 3550 2440</h1>
-            
-        </div>
-        <div class="inputBox">
-            <span class="fas fa-clock"></span>
-           <h1> &nbsp
-            Horario: Lunes a Viernes 8 a.m-2:30 p.m
-    </div>
+    
 </form>
 
 </section>
