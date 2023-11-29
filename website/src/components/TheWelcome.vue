@@ -40,8 +40,8 @@ Nuestra visión es ser reconocidos como un referente en educación que nutre el 
     <div class="container__text">
       <h2>Objetivo</h2>
       <img src="/goal.png" alt="">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis itaque consectetur provident, quam reiciendis,
-        earum deleniti est amet veniam praesentium dicta aliquid eaque fuga quas? Eos eius assumenda adipisci voluptate.
+      <p>En la Colegio Tlamachtiani, nuestro objetivo es crear un ambiente educativo excepcional que inspire el desarrollo integral de cada estudiante en su trayectoria académica, social y emocional. Nos esforzamos por cultivar un entorno donde los valores de compasión, responsabilidad y excelencia estén profundamente arraigados en la personalidad de cada estudiante.
+        
       </p>
     </div>
   </div>

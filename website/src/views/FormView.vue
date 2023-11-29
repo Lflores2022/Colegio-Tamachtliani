@@ -1,20 +1,19 @@
 <template>
-     <section class="form_wrap">
-
-<section class="cantact_info">
-    <section class="info_title">
-        <span class="fa fa-user-circle"></span>
-        <h2>INFORMACION<br>DE CONTACTO</h2>
-    </section>
-    <section class="info_items">
-        <p><span class="fa fa-envelope"></span> info.contact@gmail.com</p>
-        <p><span class="fa fa-mobile"></span> +1(585) 902-8665</p>
-    </section>
-</section>
-
-<form action="" class="form_contact">
-    <h2>Envia un mensaje</h2>
-    <div class="user_info">
+    <section class="form_wrap">
+      <section class="cantact_info">
+        <section class="info_title">
+          <span class="fa fa-user-circle"></span>
+          <h2>INFORMACION<br>DE CONTACTO</h2>
+        </section>
+        <section class="info_items">
+          <p><span class="fa fa-envelope"></span> info.contact@gmail.com</p>
+          <p><span class="fa fa-mobile"></span> +1(585) 902-8665</p>
+        </section>
+      </section>
+  
+      <form action="" class="form_contact" id="contactForm">
+      <h2>Envia un mensaje</h2>
+      <div class="user_info">
         <label for="names">Nombres *</label>
         <input type="text" id="names">
 
@@ -28,11 +27,42 @@
         <textarea id="mensaje"></textarea>
 
         <input type="button" value="Enviar Mensaje" id="btnSend">
-    </div>
-</form>
-
-</section>
+      </div>
+    </form>
+  </section>
 </template>
+
+<script>
+export default {
+  mounted() {
+    const btnSend = document.getElementById('btnSend');
+    const form = document.getElementById('contactForm');
+
+    btnSend.addEventListener('click', () => {
+      const names = document.getElementById('names').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const mensaje = document.getElementById('mensaje').value.trim();
+
+      if (names === '' || email === '' || mensaje === '') {
+        alert('Por favor, complete todos los campos.');
+      } else {
+        alert('Gracias por contactarnos');
+        // Limpia los campos después de enviar el formulario
+        document.getElementById('names').value = '';
+        document.getElementById('phone').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('mensaje').value = '';
+      }
+    });
+
+    // Evita que el formulario realice su acción por defecto (submit)
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+    });
+  }
+}
+</script>
+
 <style scoped>
 @font-face {
   font-family: 'FontAwesome';
